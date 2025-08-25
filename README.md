@@ -1,11 +1,11 @@
-🚲 SQL BikeStores Analysis
+#🚲 SQL BikeStores Analysis
 
-📌 Project Overview
+##📌 Project Overview
 
 This project contains a collection of SQL queries applied on the BikeStores database.
 The aim is to demonstrate proficiency in SQL by covering different topics such as joins, aggregations, subqueries, common table expressions (CTEs), and window functions.
 
-🗄️ Database
+##🗄️ Database
 
 The project is based on the BikeStores sample database.
 It contains:
@@ -14,7 +14,7 @@ Sales data → customers, orders, stores, staffs
 
 Production data → products, brands, categories
 
-✅ Topics Covered
+##✅ Topics Covered
 
 Basic SQL Queries → SELECT, WHERE, ORDER BY
 
@@ -36,11 +36,11 @@ Aggregates → Running totals, moving averages
 
 Navigation → LAG(), LEAD()
 
-🗺️ Database Physical Diagram
+##🗺️ Database Physical Diagram
 <img width="616" height="566" alt="BikeStore DB Diagram" src="https://github.com/user-attachments/assets/c3dbe82c-15b7-4cfc-8fd4-712478033b20" />
 
 
-📌 Example Queries
+##📌 Example Queries
 🔹 Products priced above average
 SELECT P.product_id, 
        P.product_name, 
@@ -66,14 +66,12 @@ SELECT *
 FROM TopRank
 WHERE q_rank <= 3;
 
-📂 Repository Structure
-
-📁 SQL-BikeStores-Analysis
+##📁 SQL-BikeStores-Analysis
 ┣ 📄 BikeStores Queries.sql → All SQL queries
 ┣ 📄 BikeStores.bak → Database backup (optional)
 ┣ 📄 README.md → Project documentation
 
-🚀 How to Use
+##🚀 How to Use
 
 Restore the BikeStores.bak database in SQL Server.
 
@@ -81,7 +79,7 @@ Open the BikeStores Queries.sql file in SSMS.
 
 Run the queries one by one to explore the analysis.
 
-📈 Key Insights
+##📈 Key Insights
 
 Products priced higher than the global average
 
@@ -95,6 +93,6 @@ Top 3 products per category
 
 Orders vs. previous/next order for each customer
 
-🛠️ Skills Demonstrated
+##🛠️ Skills Demonstrated
 
 SQL, Joins, Aggregations, Subqueries, CTEs, Window Functions, Data Analysis with SQL
