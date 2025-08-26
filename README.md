@@ -1,4 +1,4 @@
-[BS - Select join aggregation.sql](https://github.com/user-attachments/files/21975089/BS.-.Select.join.aggregation.sql)# 🚲 SQL BikeStores Analysis
+# 🚲 SQL BikeStores Analysis
 
 
 
